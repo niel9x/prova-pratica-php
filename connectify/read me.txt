@@ -1,0 +1,19 @@
+Fala matusa!! perdão estar entregando a atividade avaliativa hoje, estava longe do teclado esses dias, só passando aqui pra agradecer sua compreensão e falar que eu escolhi não fazer o sql dentro do php eu já meio que tinha essa atividade avaliativa ""feita"" por que eu fiquei interessado a estudar um pouco antes de você comentar dela, ent ta aqui o código, as outras atividades da UC eu também já finalizei mas não devo ter entregado, Enfim, tamo junto meu caro!
+
+
+CREATE DATABASE IF NOT EXISTS LOGIN;
+USE LOGIN;
+
+CREATE TABLE IF NOT EXISTS USERS (
+    ID INT AUTO_INCREMENT PRIMARY KEY,
+    USERNAME VARCHAR(16),
+    PASSWORD VARCHAR(20)
+);
+
+fiz o db do login primeiro mas ai não seria boa ideia criar dois db's então inseri duas colunas sendo de email, e data nasc.
+
+ALTER TABLE USERS
+ADD EMAIL VARCHAR(64),
+ADD DATANASC DATE;
+
+só adicionei depois por que fiz o db todo pensando em login mesmo, depois fui raciocinar, acredita?!

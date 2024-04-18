@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Satisfy&display=swap');
+
+
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #191919; 
+}
+
+header {
+    padding-top: 10px;
+    justify-content: center;
+    display: flex;
+}
+
+header h1 {
+    color: white;
+    font-size: 36px;
+    font-family: 'Satisfy', sans-serif;
+}
+
+header h1 .pp {
+    color: #6C63FF;
+    font-family: 'Satisfy', sans-serif;
+}
+
+aside {
+    display: flex;
+}
+
+aside img {
+    margin-left: 50px;
+    width: 300px;
+    height: 505px;
+}
+
+aside h1 {
+    color: white;
+    padding-left: 10px;
+    padding-top: 50px;
+    font-size: 56px;
+}
+
+aside h1 .destaque {
+    color: #6C63FF;
+}
+
+.container {
+    margin-top: 25px;
+    margin-left: 50px;
+    border-radius: 16px;
+    justify-content: center;
+    filter: drop-shadow(5px 5px 10px #000000);
+    display: flex;
+    width: 500px;
+    height: 500px;
+    background-color: #1E1E1E;
+}
+
+.login-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.login-box h1 {
+    color: #6C63FF;
+}
+
+.login-box input[type="text"] ,[type="password"]{
+    width: 450px;
+    padding-top: 50px;
+    border: none;
+    outline: none;
+    background-color: #1E1E1E;
+    color: white;
+    font-size: 18px;
+    border-bottom: 1px solid #3b3b3b;
+}
+
+.login-box input::placeholder{
+    font-size: 18px;
+}
+
+.login-box input[type="submit"] {
+    color: white;
+    background-color: #6C63FF;
+    margin-top: 50px;
+    height: 50px;
+    width: 200px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.noacc h1 {
+    padding-top: 50px;
+    color: white;
+    font-size: 18px;
+}
+
+.noacc .destaque {
+    color: #6C63FF;
+    cursor: pointer;
+}
+
+.noacc a {
+    text-decoration: none;
+    color: #6C63FF;
+}
+
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+/** registro.html **/
+
+.viewer {
+    flex-direction: column;
+    display: flex;
+    background-color: white;
+    width: 320px;
+    height: 619px
+}
+
+.viewer .join {
+    margin-left: 10px;
+    padding-top: 20px;
+}
+
+.viewer .text h1 {
+    color: #1E1E1E;
+    font-size: 36px;
+    padding-top: 0;
+}
+
+.register-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.register-box h1 {
+    color: #6C63FF;
+}
+
+.register-box input[type='text'], input[type='date'], input[type='email']{
+    width: 450px;
+    padding-top: 50px;
+    border: none;
+    outline: none;
+    background-color: #1E1E1E;
+    color: white;
+    font-size: 18px;
+    border-bottom: 1px solid #3b3b3b;
+}
+
+.register-box input[type='submit']{
+    color: white;
+    background-color: #6C63FF;
+    margin-top: 50px;
+    height: 50px;
+    width: 200px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.viewer {
+    position: absolute;
+}
+
+.register-box {
+    position: relative;
+}
+
+.container-reg {
+    margin-left: 550px;
+    border-radius: 16px;
+    justify-content: center;
+    filter: drop-shadow(5px 5px 10px #000000);
+    display: flex;
+    width: 500px;
+    height: 575px;
+    background-color: #1E1E1E;
+}
+
+.hh, .hh h1{
+    padding-top: 50px;
+    color: white;
+    font-size: 18px;
+}
+
+.hh .padrao {
+    padding-top: 50px;
+    color: white;
+    font-size: 18px;
+}
+
+.hh a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #6C63FF;
+}
